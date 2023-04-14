@@ -1,0 +1,15 @@
+.divProductos{
+    background-color: #FFF;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 5%;
+}
+.fotos{
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    padding: 1%;
+}
+.border{
+    border-color: white;
+}

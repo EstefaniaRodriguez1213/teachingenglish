@@ -1,0 +1,21 @@
+.divAbout{
+    background-color: #FFF   ;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.lateralAbout{
+        width: 50%; 
+        float: left;
+        padding: 4%;
+        text-align: center;
+}
+.lateralAboutRigth{
+    width: 50%; 
+    float: right;
+    text-align: center;
+}
+.lateralAboutImage{
+    border-radius: 50%;
+}

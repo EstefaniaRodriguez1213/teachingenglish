@@ -1,0 +1,13 @@
+.navFooter{
+    background-color: rgba(10, 10, 10, 0.849);
+    min-height: 6vh;
+    bottom:0;
+    width: 100%;
+    color: white;
+    font-style: italic;
+}
+.center{
+    padding-top: 13px;
+    display: flex;
+  justify-content: center;
+}
