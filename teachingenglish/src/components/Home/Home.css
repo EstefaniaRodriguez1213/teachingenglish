@@ -11,16 +11,10 @@
     text-decoration: none;
     font-size: 1.2rem;
 }
-h2{
+h2, h1, h3{
    color:#590802 ;
 }
 
-.div{
-    /* background-image: url('../../../public/img/banner5.png'); */
-    /* background-size: cover;
-    min-height: 100vh; */
-
-}
 .divCreadores{
     padding-top: 27%;
     padding-left: 20%;
@@ -30,6 +24,24 @@ h2{
 .row{
     width: 50%;
     padding-left: 6%;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.centradoHome{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+}
+.contenedorHome{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #A4826D;
+    font-weight: bold;
 }
 
 

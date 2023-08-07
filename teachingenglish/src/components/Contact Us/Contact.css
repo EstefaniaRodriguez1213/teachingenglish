@@ -65,11 +65,17 @@
     width: 50%; 
     float:right;
     margin-left: 0 auto;
-	margin-right: auto;
+	  margin-right: auto;
+}
+.lateralAbout{
+  width: 50%; 
+  float: left;
+  padding: 4%;
+  text-align: center;
 }
 .pad{
-    padding: 2%;
-    padding-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .divContact{

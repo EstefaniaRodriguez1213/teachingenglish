@@ -3,9 +3,7 @@ import NavBar from './components/Navbar/Navbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home/Home';
 import Products from './components/Products/Products';
-import AboutUs from './components/About us/AboutUs';
 import ContactUs from './components/Contact Us/ContactUs';
-import Footer from './components/Footer/Footer';
 import Teacher from './components/Teacher/Teacher';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -18,7 +16,6 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
           <Route path="/home" element={<Home></Home>}></Route>
           <Route path="/clases" element={<Products></Products>}></Route>
-          <Route path="/about" element={<AboutUs></AboutUs>}></Route>
           <Route path="/contact" element={<ContactUs></ContactUs>}></Route>
           <Route path="/aboutme" element={<Teacher></Teacher>}></Route>
         </Routes>

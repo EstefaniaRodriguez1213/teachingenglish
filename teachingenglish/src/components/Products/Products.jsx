@@ -49,26 +49,41 @@ const Products = () => {
         </Card.Body>
       </Card>
     </CardGroup>
-      </Container>
+    <br></br>
       <br></br>
       <br></br>
       <br></br>
+      <h5><strong>Hablamos de diferentes temas</strong></h5>
       <br></br>
-      <h5><strong>Hablamos de diferentes temas:</strong></h5>
-      <br></br>
+    
       <div>
-        <img className='fotos' src='img/sport.png'></img>
+        <div className='contenedor' >
+          <img className='fotos' src='img/sport.png'></img>
+          <div class="centrado">Deportes</div>
+        </div>
+        <div className='contenedor' >
         <img className='fotos' src='img/technology.png'></img>
+          <div class="centrado">Tecnología</div>
+        </div>
+        <div className='contenedor' >
         <img className='fotos' src='img/music.png'></img>
+          <div class="centrado">Música</div>
+        </div>
+        <div className='contenedor' >
         <img className='fotos' src='img/travel.png'></img>
+          <div class="centrado">Viajes</div>
+        </div>
+        <div className='contenedor' >
         <img className='fotos' src='img/bussines.png'></img>
+          <div class="centrado">Negocios</div>
+        </div>
       </div>
       <br></br>
       <br></br>
       <br></br>
       <h5><strong>¿Qué es lo que veremos?</strong></h5>
 
-        <div className='lateralAbout'> 
+        <div className='lateral'> 
         <h5><strong>Grammar & Writting</strong></h5>
         Al estar enfocados en el habla, es indispensable saber sobre gramatica.
         <br></br>
@@ -93,6 +108,7 @@ const Products = () => {
         Por esto, tambien la veremos en nuestras clases
         </div>
         <br></br>
+      </Container>
     </div>
   )
 }
